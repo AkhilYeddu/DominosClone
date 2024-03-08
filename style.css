@@ -58,17 +58,8 @@
     border-radius: 5px;
     box-shadow: 3px 3px 5px green;
     text-align: center;
-
-
 }
-.online
-{
-    text-align: center;
-    color:white;
-    position: absolute;
-    top: -30%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 #h3{
     color: rgb(4, 109, 135);
     background-color: rgb(199, 199, 199);
@@ -221,4 +212,12 @@ h3{
     margin-left:20px;
     font-size: 10px;
 
+}
+.online{
+    
+    color: white;
+    position: absolute;
+    top: -30%;
+    font-style: bold;
+    
 }
