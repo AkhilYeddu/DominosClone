@@ -83,9 +83,11 @@ h1{
 h3{
     margin-left: 50px;
     margin-top: 30px;
-    font-family: verdana;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
-    color: #495e68;
+    color: rgb(57, 85, 110);
+    font-size: 20px;
+    
 
 }
 .cards{
@@ -220,4 +222,8 @@ h3{
     top: -30%;
     font-style: bold;
     
+}
+.contextbro{
+    font-family: arial;
+    color: aquamarine;
 }
