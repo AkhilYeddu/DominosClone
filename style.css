@@ -43,7 +43,7 @@
     position: absolute;
     top: 50%;
     margin-left: 50px;
-    color:#a8d2ff;
+    color:#084868;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
 }
@@ -90,57 +90,97 @@ h3{
     
 
 }
-.cards{
-    margin-left: 60px;
-    margin-top: 40px;
+.card-container{
     display: flex;
     
-    
-    
+   
 }
-
 .card1{
-    box-shadow: 0px 2px 4px;
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-  
+    
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 4px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+    height: 250px;
+    width: 250px;
+}
+.card1:hover{
+    box-shadow: 3px 5px 4px;
 }
 .card2{
-    box-shadow: 0px 2px 4px;
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
+    
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 4px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    height: 250px;
+    width: 250px;
+}
+.card2:hover{
+    box-shadow: 3px 5px 4px;
 }
 .card3{
-    box-shadow: 0px 2px 4px;
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
+    
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 4px;
+    margin-left: 50px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+    
 }
-.card4{
-    box-shadow: 0px 2px 4px;
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
+.card3:hover{
+    box-shadow: 3px 5px 4px;
 }
 
+.card4{
+    
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 4px;
+    margin-left: 50px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.card4:hover{
+    box-shadow: 3px 5px 4px;
+}
 .menu{
-    position: absolute;
-    left:9%
+    position: relative;
+    left:1px;
+    margin-top: 20px;
 }
+
 .store{
-    position: absolute;
-    left:27%
+    position: relative;
+    left:2px;
+    margin-top: 20px;
 }
-.party{
-    position: absolute;
-    left:48%
+.birthday
+{
+    position: relative;
+    left: -5px;
+    margin-top: 5px;
 }
 .catering{
-    position: absolute;
-    left:65%
+    position: relative;
+    margin-top: 40px;
 }
+
 
 .downest{
     margin-top: 100px;
@@ -161,7 +201,9 @@ h3{
     
 }
 .get{
-    width: 20%; 
+    position: relative;
+    width: 20%;
+    top:-100px; 
 }
 
 
