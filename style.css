@@ -8,6 +8,26 @@
     margin-bottom: 10px;
     
 }
+.top .bar{
+    cursor: pointer;
+
+}
+.card1{
+    cursor: pointer;
+    
+}
+.card2{
+    cursor: pointer;
+    
+}
+.card3{
+    cursor: pointer;
+    
+}
+.card4{
+    cursor: pointer;
+    
+}
 
 
 #button
