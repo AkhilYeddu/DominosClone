@@ -8,26 +8,6 @@
     margin-bottom: 10px;
     
 }
-.top .bar{
-    cursor: pointer;
-
-}
-.card1{
-    cursor: pointer;
-    
-}
-.card2{
-    cursor: pointer;
-    
-}
-.card3{
-    cursor: pointer;
-    
-}
-.card4{
-    cursor: pointer;
-    
-}
 
 
 #button
@@ -36,6 +16,8 @@
     background-color: rgb(255, 38, 0);
     margin-left: 60px;
     border: 0px;
+    height: 75px;
+    width: auto;
 
      
 }
@@ -75,7 +57,7 @@
     height: 50px;
     width: 300px;
     margin-left: 50px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 5px 5px 3px green;
     text-align: center;
 }
@@ -91,8 +73,14 @@
     color: rgb(59, 67, 79);
 }
 .coupons{
+    margin-right: 80px;
+    border: 2px solid grey;
     height: 300px;
     width: 500px;
+}
+.coupons:hover{
+    box-shadow: 6px 6px 4px;
+    cursor: pointer;
 }
 h1{
     color: #006491;
@@ -298,4 +286,9 @@ h3{
 }
 .overlay3:active{
     box-shadow: 3px 3px 2px green;
+}
+#img{
+    margin-left: 25px;
+    height: 50px;
+    width: 200px;
 }
